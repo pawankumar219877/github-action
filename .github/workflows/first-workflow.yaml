@@ -15,7 +15,7 @@ jobs:
       runs-on: macos-latest
       steps:
         - name: View SW Virson
-          run: sw_vars
+          run: sw_vers
     dependent-job:
       runs-on: window-latest
       needs: run-shell-commands
